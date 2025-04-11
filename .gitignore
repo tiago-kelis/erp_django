@@ -1,1 +1,7 @@
 settings.py
+*.log
+*.pyc
+_pycache_
+/.mypy_cache
+/.vscode
+/venv
