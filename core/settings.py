@@ -14,8 +14,8 @@ from pathlib import Path
 from datetime import timedelta
 import os
 from dotenv import load_dotenv
-import secrets
-print(secrets.token_urlsafe(50))
+
+
 
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
