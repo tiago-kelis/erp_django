@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 settings.py
 *.log
 *.pyc
@@ -5,3 +6,38 @@ _pycache_
 /.mypy_cache
 /.vscode
 /venv
+=======
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> f98d011 (Início limpo com configurações seguras)
